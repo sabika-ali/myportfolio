@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">My Portfolio</div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+        <label for="menu-toggle" class="menu-toggle-icon">&#9776;</label>
+
+        <nav class="main-nav">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm Sabika Ali</h1>
+            <p class="tagline">A Front-End Developer passionate about building beautiful and accessible web experiences.</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+        
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I specialize in HTML5, CSS3, and modern JavaScript practices. With a focus on **responsive design** and **performance**, I strive to create web pages that look great on any device.</p>
+            <p>This portfolio page is a demonstration of my ability to create responsive layouts **without using any frameworks** like Bootstrap or Tailwind CSS, relying purely on native CSS features like **Flexbox** and **Grid**.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <img src="images/Library Management System.png" alt="Screenshot of Project One">
+                <h3>Library Management System</h3>
+                <p> This is a library management system that allows you to manage your library's books, students, and loans.</p>
+                <a href="#" target="_blank" class="project-link">View Demo</a>
+            </div>
+            <div class="project-card">
+                <img src="images/Time table generator.png" alt="Screenshot of Project Two">
+                <h3>Time Table Generator</h3>
+                <p> This is a time table generator that allows you to generate a time table for your school or college.</p>
+                <a href="#" target="_blank" class="project-link">View Demo</a>
+            </div>
+            <div class="project-card">
+                <img src="images/chatbot.png" alt="Screenshot of Project Three">
+                <h3>Chatbot</h3>
+                <p> This is a chatbot that allows you to chat with your library's books, students, and loans.</p>
+                <a href="#" target="_blank" class="project-link">View Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+            <p class="note">Note: This form is for display; actual submission requires server-side code (JavaScript/backend).</p>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Sabika Ali. All rights reserved. | Built with pure HTML and CSS.</p>
+    </footer>
+
+</body>
+</html>
